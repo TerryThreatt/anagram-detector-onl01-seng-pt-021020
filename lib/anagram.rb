@@ -3,7 +3,6 @@
 class Anagram 
   
   attr_accessor :word 
-  ANAGRAM = []
   
   def initialize(word)
     @word = word
@@ -12,7 +11,9 @@ class Anagram
   def match(str)
     str.find_all do |test_word| 
       if test_word.split("").sort == @word.split("").sort
-        word
+        test_word
+      end 
+    end 
   end 
   
   
