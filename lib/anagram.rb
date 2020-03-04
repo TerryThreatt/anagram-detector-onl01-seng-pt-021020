@@ -10,8 +10,8 @@ class Anagram
   end 
   
   def match(str)
-    str.find_all do |word| 
-      
+    str.find_all do |test_word| 
+      word
   end 
   
   
