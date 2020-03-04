@@ -9,5 +9,9 @@ class Anagram
     @word = word
   end 
   
+  def match(str)
+    str.find_all()
+  end 
+  
   
 end 
